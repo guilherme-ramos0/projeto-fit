@@ -1,0 +1,61 @@
+/* definindo os sublinhados dos links, mudando a cor de fundo e zerando todas as margens */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* definindo a cor do fundo e tirando o efeito dos links */
+a{text-decoration: none;}
+body{
+    background-color: #323232;
+}
+
+
+/* cabeçalho */
+header{
+    background-color: #3d3d3d41;
+    /* para colocar os objs um do lado do outro */
+    display: flex;
+
+    /* colcar uma distancia sobre os objs */
+    justify-content: space-around;
+
+    /* para alinhar os objs */
+    align-items: center;
+
+    /* padding cima baixo - esquerda direita */
+    padding: 5px 0;
+}
+
+/* entrando na classe e buscando a tag LI */
+.menu li{
+    display: inline-block;
+    
+    /* magin cima  baixo - esquerda direita */
+    margin: 0 10px;
+}
+
+/* entrando na classe e buscando a tag de link */
+.menu li a {
+    font-size: 17px;
+    color: white;
+    padding: 5px 20px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    color: #913f3f;
+}
+
+/* aparecer uma cor quando o mouse do usuario esta em cima do item */
+.menu li a:hover{
+    background-color: #913f3f;
+}
+
+
+
+main p a{
+    color: white;
+}

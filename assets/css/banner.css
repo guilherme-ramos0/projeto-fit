@@ -1,0 +1,32 @@
+.banner{
+    background-color: #731A32;
+    background-repeat: no-repeat;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.bloco-inicial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 400px;
+    color: white;
+}
+.bloco-inicial a{
+    font-size: 30px;
+    padding: 10px 20px;
+    border: solid #ff5683;
+}
+.bloco-inicial a:hover{
+    border-radius: 50px;
+    transition: .5s;
+    color: #000000;
+}
+.bloco-inicial h1{
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20%;
+    margin-top: 10%;
+}
