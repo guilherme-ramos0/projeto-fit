@@ -1,26 +1,6 @@
-.bloco{
-    display: grid;/* definindo como a section devera agir */
-    grid-template-columns: 1fr;/* quantas colunas trá */
-    grid-template-rows: 1fr 2fr 1fr; /* quantas linhas terá */
-    gap: 10px 20px; /* qual sera seu tamanho e sua distancia*/
-}
-.navigation{
-    line-height: 3em; /* distanciamento das linhas */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.instructors{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.instructors h4{
-    border: 2px black solid;
-}
-.navigation h2{
-    border: 2px black solid;
-    
-}
+/* 
+    display: grid; - definindo como a section devera agir 
+    grid-template-columns: 1fr; - quantas colunas trá 
+    grid-template-rows: 1fr 2fr 1fr; - quantas linhas terá 
+    gap: 10px 20px; - qual sera seu tamanho e sua distancia 
+*/
